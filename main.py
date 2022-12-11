@@ -18,7 +18,7 @@ for i in range(0, len(d)):
         n = d[i]
 
 if n > -1:
-    print('O posto de gasolina mais distante dentro do limite atual de combustível está a {} Km de distância.'.format(n))
+    print('O posto de gasolina mais distante dentro do limite atual de combustível está a {:.2f} Km de distância.'.format(n))
 else:
     print('Não existe nenhum posto de gasolina dentro do limite atual de combustível.')
     print(n)
