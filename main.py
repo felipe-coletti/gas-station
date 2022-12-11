@@ -1,5 +1,5 @@
 '''
-Crie um programa que leia a quantidade de combustível restante de um veículo em litros, o consumo médio de combustível do veículo em quilometros por litro, a distância dos quatro postos de gasolina mais próximos em quilometros e mostre o posto de gasolina mais distante dentro do limite de combustível do veículo. Considere que a distância dos quatro postos de gasolina mais próximos é de 2, 15, 22 e 10,2 Km.
+Crie um programa que leia a quantidade de combustível restante de um veículo em litros, o consumo médio de combustível do veículo em quilometros por litro e mostre o posto de gasolina mais distante dentro do limite de combustível do veículo. Considere que a distância dos quatro postos de gasolina mais próximos em quilometros é de 2, 15, 22 e 10,2.
 '''
 
 c = float(input('Digite a quantidade atual de combustível do veículo: '))
