@@ -3,7 +3,7 @@ Crie um programa que leia a quantidade de combustível restante de um veículo e
 '''
 
 c = float(input('Digite a quantidade atual de combustível do veículo: '))
-km = float(input('Digite quantos quilometros o veículo é capaz de rodar a cada litro de gasolina: '))
+km = float(input('Digite quantos quilometros o veículo é capaz de rodar a cada litro de combustível: '))
 
 d = [2, 15, 22, 10.2]
 
