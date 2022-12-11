@@ -19,5 +19,3 @@ if n > -1:
 else:
     print('Não existe nenhum posto de gasolina dentro do limite atual de combustível.')
     print(n)
-
-
