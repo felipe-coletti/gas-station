@@ -9,8 +9,6 @@ d = [2, 15, 22, 10.2]
 
 n = -1
 
-d.sort(reverse=True)
-
 for i in d:
     g = i / km
 
