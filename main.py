@@ -2,7 +2,7 @@
 Crie um programa que leia a quantidade de combustível restante de um veículo em litros, o consumo médio de combustível do veículo em quilometros por litro e a distância dos cinco postos de gasolina mais próximos em quilometros. Considere as distâncias até os cinco postos de gasolina mais próximas são 2, 15, 22 e 10.2.
 '''
 
-c = float(input('Digite a quantidade de combustível atual do veículo: '))
+c = float(input('Digite a quantidade atual de combustível do veículo: '))
 km = float(input('Digite quantos quilometros o veículo é capaz de rodar a cada litro de gasolina: '))
 
 d = [2, 15, 22, 10.2]
