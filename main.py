@@ -11,11 +11,11 @@ n = -1
 
 d.sort(reverse=True)
 
-for i in range(0, len(d)):
-    g = d[i] / km
+for i in d:
+    g = i / km
 
-    if g <= c and d[i] > n:
-        n = d[i]
+    if g <= c and i > n:
+        n = i
 
 if n > -1:
     print('O posto de gasolina mais distante dentro do limite atual de combustível está a {:.2f} Km de distância.'.format(n))
