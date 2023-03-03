@@ -10,9 +10,9 @@ d = [2, 15, 22, 10.2]
 n = -1
 
 for i in d:
-    g = i / km
+    l = i / km
 
-    if g <= c and i > n:
+    if l <= c and i > n:
         n = i
 
 if n > -1:
