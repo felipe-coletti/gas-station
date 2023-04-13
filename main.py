@@ -2,7 +2,7 @@
 Crie um programa que leia a quantidade de combustível restante de um veículo em litros, o consumo médio de combustível do veículo em quilometros por litro e mostre o posto de gasolina mais distante dentro do limite de combustível do veículo. Considere que a distância dos quatro postos de gasolina mais próximos em quilometros é de 2, 15, 22 e 10,2.
 '''
 
-c = float(input('Digite a quantidade atual de combustível do veículo: '))
+availableFuel = float(input('Digite a quantidade atual de combustível do veículo: '))
 km = float(input('Digite quantos quilometros o veículo é capaz de rodar a cada litro de combustível: '))
 
 distances = [2, 15, 22, 10.2]
@@ -10,9 +10,9 @@ distances = [2, 15, 22, 10.2]
 result = -1
 
 for distance in distances:
-    l = distance / km
+    requiredFuel = distance / km
 
-    if l <= c and distance > result:
+    if requiredFuel <= availableFuel and distance > result:
         result = distance
 
 if result > -1:
