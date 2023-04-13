@@ -5,17 +5,17 @@ Crie um programa que leia a quantidade de combustível restante de um veículo e
 c = float(input('Digite a quantidade atual de combustível do veículo: '))
 km = float(input('Digite quantos quilometros o veículo é capaz de rodar a cada litro de combustível: '))
 
-d = [2, 15, 22, 10.2]
+distances = [2, 15, 22, 10.2]
 
-n = -1
+result = -1
 
-for i in d:
-    l = i / km
+for distance in distances:
+    l = distance / km
 
-    if l <= c and i > n:
-        n = i
+    if l <= c and distance > result:
+        result = distance
 
-if n > -1:
+if result > -1:
     print('O posto de gasolina mais distante dentro do limite atual de combustível está a {:.2f} Km de distância.'.format(n))
 else:
     print('Não existe nenhum posto de gasolina dentro do limite atual de combustível.')
