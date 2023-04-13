@@ -16,6 +16,6 @@ for distance in distances:
         result = distance
 
 if result > -1:
-    print('O posto de gasolina mais distante dentro do limite atual de combustível está a {:.2f} Km de distância.'.format(n))
+    print('O posto de gasolina mais distante dentro do limite atual de combustível está a {:.2f} Km de distância.'.format(result))
 else:
     print('Não existe nenhum posto de gasolina dentro do limite atual de combustível.')
