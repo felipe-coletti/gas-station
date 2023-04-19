@@ -3,14 +3,14 @@ Crie um programa que leia a quantidade de combustível restante de um veículo e
 '''
 
 availableFuel = float(input('Digite a quantidade de combustível do veículo em litros: '))
-km = float(input('Digite o consumo médio de combustível do veículo em quilômetros por litro: '))
+averageConsumption = float(input('Digite o consumo médio de combustível do veículo em quilômetros por litro: '))
 
 distances = [2, 15, 22, 10.2]
 
 result = -1
 
 for distance in distances:
-    requiredFuel = distance / km
+    requiredFuel = distance / averageConsumption
 
     if requiredFuel <= availableFuel and distance > result:
         result = distance
