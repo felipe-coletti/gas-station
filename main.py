@@ -9,11 +9,11 @@ availableDistances = [2, 15, 22, 10.2]
 
 longestPossibleDistance = -1
 
-for availableDistance in availableDistances:
-    requiredFuel = availableDistance / averageConsumption
+for distance in availableDistances:
+    requiredFuel = distance / averageConsumption
 
     if requiredFuel <= availableFuel and distance > longestPossibleDistance:
-        longestPossibleDistance = availableDistance
+        longestPossibleDistance = distance
 
 if longestPossibleDistance > -1:
     print('O posto de gasolina mais distante dentro do limite atual de combustível está a {:.2f} Km de distância.'.format(longestPossibleDistance))
