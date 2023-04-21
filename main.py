@@ -7,13 +7,13 @@ averageConsumption = float(input('Digite o consumo médio de combustível do ve�
 
 distances = [2, 15, 22, 10.2]
 
-result = -1
+longestPossibleDistance = -1
 
 for distance in distances:
     requiredFuel = distance / averageConsumption
 
-    if requiredFuel <= availableFuel and distance > result:
-        result = distance
+    if requiredFuel <= availableFuel and distance > longestPossibleDistance:
+        longestPossibleDistance = distance
 
 if result > -1:
     print('O posto de gasolina mais distante dentro do limite atual de combustível está a {:.2f} Km de distância.'.format(result))
