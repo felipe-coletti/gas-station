@@ -5,17 +5,17 @@ Crie um programa que leia a quantidade de combustível restante de um veículo e
 availableFuel = float(input('Digite a quantidade de combustível do veículo em litros: '))
 averageConsumption = float(input('Digite o consumo médio de combustível do veículo em quilômetros por litro: '))
 
-distances = [2, 15, 22, 10.2]
+availableDistances = [2, 15, 22, 10.2]
 
 longestPossibleDistance = -1
 
-for distance in distances:
-    requiredFuel = distance / averageConsumption
+for availableDistance in availableDistances:
+    requiredFuel = availableDistance / averageConsumption
 
     if requiredFuel <= availableFuel and distance > longestPossibleDistance:
-        longestPossibleDistance = distance
+        longestPossibleDistance = availableDistance
 
-if result > -1:
-    print('O posto de gasolina mais distante dentro do limite atual de combustível está a {:.2f} Km de distância.'.format(result))
+if longestPossibleDistance > -1:
+    print('O posto de gasolina mais distante dentro do limite atual de combustível está a {:.2f} Km de distância.'.format(longestPossibleDistance))
 else:
     print('Não existe nenhum posto de gasolina dentro do limite atual de combustível.')
