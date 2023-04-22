@@ -3,13 +3,13 @@ Crie um programa que leia a quantidade de combustível restante de um veículo e
 '''
 
 fuel = float(input('Digite a quantidade de combustível do veículo em litros: '))
-averageConsumption = float(input('Digite o consumo médio de combustível do veículo em quilômetros por litro: '))
+fuelConsumption = float(input('Digite o consumo médio de combustível do veículo em quilômetros por litro: '))
 
 availableDistances = [2, 15, 22, 10.2]
 
 availableDistances.sort()
 
-distanceLimit = fuel * averageConsumption
+distanceLimit = fuel * fuelConsumption
 
 longestPossibleDistance = -1
 
