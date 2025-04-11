@@ -18,6 +18,6 @@ for distance in distances:
         longestPossibleDistance = distance
 
 if longestPossibleDistance >= 0:
-    print('O posto de gasolina mais distante dentro do limite atual de combustível está a {:.2f} Km de distância.'.format(longestPossibleDistance))
+    print(f'O posto de gasolina mais distante dentro do limite atual de combustível está a {longestPossibleDistance:.2f} Km de distância.')
 else:
     print('Não existe nenhum posto de gasolina dentro do limite atual de combustível.')
